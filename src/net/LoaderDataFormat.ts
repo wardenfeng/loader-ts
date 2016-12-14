@@ -5,7 +5,7 @@ module feng3d {
      * @author feng 2016-12-14
      */
     export class LoaderDataFormat {
-        
+
         /**
          * 以原始二进制数据形式接收下载的数据。
          */
@@ -14,5 +14,9 @@ module feng3d {
          * 以文本形式接收已下载的数据。
          */
         public static TEXT = "text";
+        /**
+         * 图片数据
+         */
+        public static IMAGE = "image";
     }
 }

@@ -1,0 +1,1 @@
+new feng3d.LoaderTest();
