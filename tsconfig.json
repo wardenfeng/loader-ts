@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "declaration": false,
+        "outFile": "out/loader.js"
+    },
+    "files": [ //注：如果有继承关系的，父类必须排在子类前面
+        //事件模块
+        "src/events/Event.ts",
+        "src/events/IEventDispatcher.ts",
+        "src/events/EventDispatcher.ts",
+        //加载模块
+        "src/net/Loader.ts",
+        "src/net/LoaderEvent.ts",
+        "src/net/LoaderDataFormat.ts"
+    ]
+}
